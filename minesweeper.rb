@@ -18,6 +18,7 @@ class Game
     puts "Reveal or flag? 'r' for reveal & 'f' for flag"
     action = @player.get_action
 
+
   end
 
 

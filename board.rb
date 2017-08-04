@@ -33,6 +33,9 @@ class Board
   end
 
   def reveal_empty_spaces_rec(pos)
+
+
+
     [(pos[0] - 1)..(pos[0] + 1)].each do |x|
       [(pos[1] - 1)..(pos[1] + 1)].each do |y|
         cur_pos = [x,y]
